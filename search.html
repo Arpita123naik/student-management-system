@@ -15,14 +15,13 @@
 
 <br>
 
+
 <ul>
-    {% for s in students %}
-        <li>{{ s.name }} - {{ s.age }} - {{ s.grade }}</li>
-    {% endfor %}
+    {% if students %}
+        {% for s in students %}
+            <li>{{ s.name }} - {{ s.age }} - {{ s.grade }}</li>
+        {% endfor %}
+    {% else %}
+        <p>No results found</p>
+    {% endif %}
 </ul>
-
-<br>
-<a href="/">Back to Home</a>
-
-</body>
-</html>
