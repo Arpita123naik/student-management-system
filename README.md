@@ -1,18 +1,18 @@
-# Student Management Web App (Flask)
+# 🎓 Student Management System
 
-A web-based student management system built using Flask.
+A professional command-line based Student Management System built using Python. This application allows users to manage student records efficiently with persistent storage.
 
-## Features
-- Add students
-- View students
-- Search students
-- Delete students
+## 🚀 Features
+- Add new students
+- View all student records
+- Search students by name
+- Delete student records
+- Data stored permanently using JSON file
 
-## Tech Stack
+## 🛠 Technologies Used
 - Python
-- Flask
-- HTML
+- JSON (for data storage)
 
-## Run
-pip install flask  
-python app.py
+## ▶️ How to Run
+1. Install Python
+2. Run the program:
