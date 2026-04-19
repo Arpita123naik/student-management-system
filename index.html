@@ -11,6 +11,11 @@
             <li>{{ s.name }} - {{ s.age }} - {{ s.course }}
                 <a href="/delete/{{ s.name }}">Delete</a>
             </li>
+        <li>
+    {{ s.name }} - {{ s.age }} - {{ s.grade }}
+    <a href="/update/{{ s.id }}">Edit</a>
+    <a href="/delete/{{ s.id }}">Delete</a>
+</li>
         {% endfor %}
     </ul>
 </body>
