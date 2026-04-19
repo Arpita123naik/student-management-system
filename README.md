@@ -1,20 +1,18 @@
+# 🎓 Student Management System
 
-# Student Management System
+A professional command-line based Student Management System built using Python. This application allows users to manage student records efficiently with persistent storage.
 
-This is a simple Python-based project to manage student records using a command-line interface.
+## 🚀 Features
+- Add new students
+- View all student records
+- Search students by name
+- Delete student records
+- Data stored permanently using JSON file
 
-## Features
-- Add student
-- View students
-- Search student
-- Delete student
-
-## Technologies Used
+## 🛠 Technologies Used
 - Python
+- JSON (for data storage)
 
-## How to Run
+## ▶️ How to Run
 1. Install Python
-2. Run: python student_management.py
-
-## Author
-Arpita Naik
+2. Run the program:
