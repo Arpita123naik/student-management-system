@@ -1,4 +1,4 @@
-# student-management-system
+
 # Student Management System
 
 This is a simple Python-based project to manage student records using a command-line interface.
