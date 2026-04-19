@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+</head>
+<body>
+    <h1>Student List</h1>
+    <a href="/add">Add Student</a> | <a href="/search">Search</a>
+    <ul>
+        {% for s in students %}
+            <li>{{ s.name }} - {{ s.age }} - {{ s.course }}
+                <a href="/delete/{{ s.name }}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

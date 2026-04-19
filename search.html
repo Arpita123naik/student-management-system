@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Student</title>
+</head>
+<body>
+
+<h2>Search Student</h2>
+
+<form method="POST">
+    <!-- 🔴 MUST MATCH Flask -->
+    <input type="text" name="search_term" placeholder="Enter name or ID">
+    <button type="submit">Search</button>
+</form>
+
+<br>
+
+<ul>
+    {% for s in students %}
+        <li>{{ s.name }} - {{ s.age }} - {{ s.grade }}</li>
+    {% endfor %}
+</ul>
+
+<br>
+<a href="/">Back to Home</a>
+
+</body>
+</html>
