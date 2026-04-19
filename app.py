@@ -78,6 +78,7 @@ def delete_student(id):
 def update_student(id):
     students = load_students()
     student = next((s for s in students if s['id'] == id), None)
+     grade = request.form.get('grade')
     
     if request.method == 'POST':
         if student:
@@ -86,7 +87,7 @@ def update_student(id):
             student['grade'] = request.form['grade']
             save_students(students)
         return redirect(url_for('index'))
-        
+       
     return render_template('update.html', student=student)
 
 if __name__ == '__main__':
